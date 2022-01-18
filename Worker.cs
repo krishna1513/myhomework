@@ -35,7 +35,7 @@ namespace ServerTime_Service
         private List<string> urls = new List<string> { "https://evsnstest.idrive.com/servertime?" };
         private readonly string FilePath = "";
 
-        const string ipaddress = "192.168.1.134:41561";
+        const string ipaddress = "192.168.1.137:41561";
 
         public ClientOperations grpc_client = new ClientOperations(new Channel(ipaddress, ChannelCredentials.Insecure));
 
